@@ -63,9 +63,8 @@ a:-webkit-any-link {
     width: min-content;
 
     transition: all 0.3s ease-in;
+    border-bottom: 1px solid #02f5b460;
 
-    border-bottom: 1px solid #02f5b4;
-    box-shadow: 0 0 10px #02f5b4;
 }
 
 .intro-navbar-item:visited {
@@ -77,11 +76,12 @@ a:-webkit-any-link {
 
     padding-bottom: 8px;
     outline: none;
-    border-top: 1px solid transparent;
+    /* border-top: 1px solid transparent;
     border-left: 1px solid transparent;
-    border-right: 1px solid transparent;
+    border-right: 1px solid transparent; */
+
     border-bottom: 1px solid #02f5b4;
-    box-shadow: 0 0 10px #02f5b4;
+    box-shadow: 0 10px 15px -10px #02f5b4;
 }
 
 .intro-heading {
