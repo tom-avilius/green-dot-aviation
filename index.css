@@ -58,30 +58,43 @@ a:-webkit-any-link {
 
     font-size: 1.8rem;
     padding-top: 30px;
-    padding-bottom: 3px;
-    border-bottom: solid 1px;
     width: min-content;
-
-    transition: all 0.3s ease-in;
-    border-bottom: 1px solid #02f5b460;
-
 }
 
-.intro-navbar-item:visited {
+.intro-navbar-item a {
+
+    border-bottom: 1px solid #02f5b460;
+    padding-bottom: 3px;
+
+    transition: all 0.3s ease-in;
+}
+
+.intro-navbar-item a:visited {
 
     color: inherit;
 }
 
-.intro-navbar-item:hover {
+.intro-navbar-item a:hover {
 
     padding-bottom: 8px;
     outline: none;
-    /* border-top: 1px solid transparent;
-    border-left: 1px solid transparent;
-    border-right: 1px solid transparent; */
 
     border-bottom: 1px solid #02f5b4;
     box-shadow: 0 10px 15px -10px #02f5b4;
+}
+
+.intro-navbar-item span img {
+
+    width: 20px;
+    margin-right: 10px;
+}
+
+.intro-navbar-item span {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
 }
 
 .intro-heading {
