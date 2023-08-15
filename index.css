@@ -1,13 +1,22 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 * {
 
     padding: 0;
     margin: 0;
 }
 
+a:-webkit-any-link {
+
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 #intro {
 
-    text-align: center;
+    /* text-align: center; */
 }
 
 #intro-background {
@@ -25,7 +34,58 @@
     padding-bottom: 10px;
 }
 
-#intro-cover h1 {
+#intro-cover div {
 
-    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#intro-cover div h1, #intro-cover div ul {
+
+    color: rgba(250, 250, 250, 0.8);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.intro-navbar-item {
+
+    list-style-type: none;
+    text-decoration: none;
+    color: inherit;
+
+    font-size: 1.8rem;
+    padding-top: 30px;
+    padding-bottom: 3px;
+    border-bottom: solid 1px;
+    width: min-content;
+
+    transition: all 0.3s ease-in;
+
+    border-bottom: 1px solid #02f5b4;
+    box-shadow: 0 0 10px #02f5b4;
+}
+
+.intro-navbar-item:visited {
+
+    color: inherit;
+}
+
+.intro-navbar-item:hover {
+
+    padding-bottom: 8px;
+    outline: none;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid #02f5b4;
+    box-shadow: 0 0 10px #02f5b4;
+}
+
+.intro-heading {
+
+    font-size: 4rem;
+    font-weight: 200;
 }
