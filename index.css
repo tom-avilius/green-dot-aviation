@@ -14,6 +14,11 @@ a:-webkit-any-link {
     text-decoration: none;
 }
 
+.intro2-navbar {
+
+    display: none;
+}
+
 #intro {
 
     /* text-align: center; */
@@ -22,7 +27,7 @@ a:-webkit-any-link {
 #intro-background {
 
     height: 60vh;
-    /* width: vw; */
+    margin-left: 20px;
 }
 
 #intro-cover {
@@ -148,4 +153,80 @@ a:-webkit-any-link {
 .intro-primary-navbar:visited {
 
     color: inherit;
+}
+
+
+@media screen and (max-width: 1600px) {
+
+    #intro-cover div h1, .intro-primary-navbar {
+
+        left: 2.5vw;
+    }
+
+    #intro-background {
+
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    
+    #intro-background {
+
+        height: 40vh;
+        margin-left: 100px;
+    }
+
+    #intro-cover {
+
+        height: 60vh;
+        align-items: center;
+    }
+
+    #intro-cover div h1, .intro-primary-navbar {
+
+        left: 4.5vw;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+
+    #intro-cover {
+
+        height: 50vh;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #intro {
+
+        background-color: black;
+        height: 65vh;
+    }
+
+    .intro-primary-navbar {}
+
+    .intro-navbar {
+
+        display: none !important;
+    }
+
+    .intro2-navbar {
+
+        display: block;
+        color: rgba(250, 250, 250, 0.8);
+
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .intro2-navbar li span{
+
+        display: contents;
+    }
+
+    .intro2-navbar li {
+
+        display: inline;
+        padding-right: 40px;
+    }
 }
