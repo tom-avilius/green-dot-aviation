@@ -72,7 +72,7 @@ a:-webkit-any-link {
     text-decoration: none;
     color: inherit;
 
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     padding-top: 30px;
     width: min-content;
 }
@@ -203,7 +203,10 @@ a:-webkit-any-link {
         height: 65vh;
     }
 
-    .intro-primary-navbar {}
+    .intro-primary-navbar {
+
+        top: 40vh;
+    }
 
     .intro-navbar {
 
