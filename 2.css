@@ -292,7 +292,7 @@ a:-webkit-any-link {
     #intro {
 
         background-color: black;
-        height: 65vh;
+       height: 65vh;
     }
 
     .intro-primary-navbar {
@@ -380,6 +380,7 @@ a:-webkit-any-link {
     .intro-primary-navbar li {
 
         font-size: 1.3rem;
+        padding-right: 0;
     }
 
     .intro2-navbar {
@@ -395,5 +396,10 @@ a:-webkit-any-link {
     #intro-cover {
 
         height: 40vh;
+    }
+
+    .pad-lt-40 {
+
+        padding-left: 40px;
     }
 }
