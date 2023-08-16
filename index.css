@@ -19,7 +19,7 @@ a:-webkit-any-link {
     display: none;
     background-color: black;
     color: rgba(250, 250, 250, 0.8);
-    padding: 30px 40px;
+    padding: 35px 40px;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-weight: 200;
 }
@@ -49,6 +49,7 @@ a:-webkit-any-link {
 
     font-size: 1.5rem !important;
 }
+
 
 #footer {
 
