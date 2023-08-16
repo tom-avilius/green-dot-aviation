@@ -102,3 +102,17 @@ a:-webkit-any-link {
     font-size: 4rem;
     font-weight: 200;
 }
+
+.intro-primary-navbar {
+
+    list-style-type: none;
+    position: absolute;
+    top: 45vh;
+    left: 6.5vw;
+}
+
+.intro-primary-navbar li {
+
+    display: inline;
+    padding-right: 60px;
+}
