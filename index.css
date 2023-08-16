@@ -115,4 +115,26 @@ a:-webkit-any-link {
 
     display: inline;
     padding-right: 60px;
+
+    font-size: 1.5rem;
+}
+
+.intro-primary-navbar li a {
+
+    border-bottom: 1px solid transparent;
+    padding-bottom: 5px;    
+
+    transition: all 0.5s ease-in;
+}
+
+.intro-primary-navbar li a:hover {
+
+    color: white;
+    border-bottom: 1px solid #02f5b4;
+    box-shadow: 0 5px 10px -5px #02f5b4;
+}
+
+.intro-primary-navbar:visited {
+
+    color: inherit;
 }
