@@ -16,6 +16,7 @@ a:-webkit-any-link {
 
 #connect {
 
+    display: none;
     background-color: black;
     color: rgba(250, 250, 250, 0.8);
     padding: 30px 40px;
@@ -321,6 +322,24 @@ a:-webkit-any-link {
     #intro-background {
 
         display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    
+    #intro-background {
+
+        display: none;
+    }
+
+     .intro2-navbar {
+
+        display: none !important;
+    }
+
+    #connect {
+
+        display: block;
     }
 }
 
