@@ -182,6 +182,7 @@ a:-webkit-any-link {
 
     font-size: 4rem;
     font-weight: 200;
+    color: rgba(0, 0, 0, 0.75) !important;
 }
 
 .intro-primary-navbar {
@@ -212,6 +213,8 @@ a:-webkit-any-link {
 
     border-bottom: 1px solid #02f5b4;
     box-shadow: 0 5px 10px -10px #02f5b4;
+
+    color: rgba(0, 0, 0);
 }
 
 .intro-primary-navbar:visited {
@@ -256,6 +259,90 @@ a:-webkit-any-link {
     /* box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; */
 }
 
+/* css below is for popup  */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+
+  display: flex;
+  align-items: flex-end;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  color: #636363;
+}
+
+.popup h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: black;
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+.popup h2 a {
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    width: min-content;
+
+    transition: all ease 0.3s;
+}
+
+.popup h2 a:hover {
+
+    border-bottom: 1px solid black;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .close:hover {
+  color: #06D85F;
+}
+
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+    
+  .popup{
+    width: 70%;
+  }
+}
+
+/* End of css popup */
 
 @media screen and (max-width: 1600px) {
 
