@@ -514,6 +514,29 @@ a:-webkit-any-link {
     }
 }
 
+@media screen and (max-width: 570px) {
+
+    #footer {
+
+        padding: 30px 30px;
+    }
+    .footer-content {
+
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-icons {
+
+        padding-top: 20px;
+    }
+
+    .copyright {
+
+        text-align: left;
+    }
+}
+
 @media screen and (max-width: 500px) {
 
     .intro-heading {
