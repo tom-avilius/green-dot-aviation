@@ -278,7 +278,7 @@ a:-webkit-any-link {
     justify-items: center;
 }
 
-#yt-links div {
+#yt-links div img {
 
     min-height: 300px;
     /* min-width: 400px; */
