@@ -725,3 +725,25 @@ a:-webkit-any-link {
         height: 110vh !important;
     }
 }
+
+/* ! Utility Classes below, used during testing; finding them means I forgot to 
+   ! delete them. But it does not matter.
+! */
+
+.remove-border-radius {
+
+    border-radius: 0 !important;
+}
+
+#behave {
+
+    height: 10vh;
+    width: 100vw;
+    color: #636363;
+    background-color: white;
+    border-color: #02f5b4;
+    font-family: 'Open Sans', cursive;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: 1.5rem;
+}
