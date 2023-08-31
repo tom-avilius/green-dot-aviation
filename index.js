@@ -1,3 +1,3 @@
 document.addEventListener("DOMContentLoaded", (event) => {
-  window.location.href = "./6.html#popup1";
+  window.location.href = "/#popup1";
 });
