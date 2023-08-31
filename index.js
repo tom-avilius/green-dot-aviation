@@ -1,6 +1,6 @@
-// document.addEventListener("DOMContentLoaded", (event) => {
-//   window.location.href = "/#popup1";
-// });
+document.addEventListener("DOMContentLoaded", (event) => {
+  window.location.href = "/#popup1";
+});
 
 
 // ! utitility functions below
