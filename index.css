@@ -730,7 +730,7 @@ a:-webkit-any-link {
    ! delete them. But it does not matter.
 ! */
 
-.remove-border-radius {
+/* .remove-border-radius {
 
     border-radius: 0 !important;
 }
@@ -746,4 +746,4 @@ a:-webkit-any-link {
     margin-top: 5vh;
     margin-bottom: 5vh;
     font-size: 1.5rem;
-}
+} */
