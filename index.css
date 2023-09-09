@@ -283,6 +283,7 @@ a:-webkit-any-link {
 #yt-links div {
 
     width: 47vw;
+    margin-bottom: 40px;
 }
 
 #yt-links div img {
@@ -291,7 +292,6 @@ a:-webkit-any-link {
     /* height: 45vh; */
     /* width: 45vw; */
     width: -webkit-fill-available;
-    margin-bottom: 40px;
     box-shadow: 0px 0px 100px 20px rgba(0,0,0,0.1);
     border-radius: 2rem;
 }
@@ -759,3 +759,60 @@ a:-webkit-any-link {
     margin-bottom: 5vh;
     font-size: 1.5rem;
 } */
+
+
+/* ! test code below */
+
+#yt-links div a {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#yt-links div a img {
+
+    display: inline;
+    transition: all 0.2s ease-in;
+}
+
+#th-01, #th-03 {
+
+    transition: all 0.4s ease-in !important;
+}
+
+#th-01-tx, #th-03-tx {
+
+    transition: all 0.5s ease-in !important;
+}
+
+#yt-links div a img:hover ~ .th-tx{
+
+    opacity: 1;
+}
+
+#yt-links div a img:hover{
+
+    filter: blur(3px);
+}
+
+#yt-links div a h1:hover {
+
+    opacity: 1;
+}
+
+#yt-links div a h1 {
+
+    position: absolute;
+    display: inline;
+
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: white;
+    font-weight: 700;
+
+    opacity: 0;
+    backdrop-filter: blur(2px);
+
+    transition: all 0.3s ease-in;
+}
