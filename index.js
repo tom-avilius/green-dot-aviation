@@ -1,6 +1,6 @@
-// document.addEventListener("DOMContentLoaded", (event) => {
-//   window.location.href = "./#popup1";
-// });
+document.addEventListener("DOMContentLoaded", (event) => {
+  window.location.href = "./#popup1";
+});
 
 
 // ! utitility functions below
@@ -26,7 +26,7 @@
 // th-01
 document.getElementById('th-01-tx').addEventListener('mouseover', event => {
 
-    document.getElementById('th-01').style.filter = "blur(2px) brightness(0.7)";
+    document.getElementById('th-01').style.filter = "blur(3px) brightness(0.7)";
 })
 
 document.getElementById('th-01').addEventListener('mouseleave', event => {
@@ -36,7 +36,7 @@ document.getElementById('th-01').addEventListener('mouseleave', event => {
 
 document.getElementById('th-01').addEventListener('mouseover', event => {
 
-    document.getElementById('th-01').style.filter = "blur(2px) brightness(0.7)";
+    document.getElementById('th-01').style.filter = "blur(3px) brightness(0.7)";
 })
 
 // th-02
@@ -58,7 +58,7 @@ document.getElementById('th-02').addEventListener('mouseover', event => {
 // th-03
 document.getElementById('th-03-tx').addEventListener('mouseover', event => {
 
-    document.getElementById('th-03').style.filter = "blur(5px) brightness(0.7)";
+    document.getElementById('th-03').style.filter = "blur(3px) brightness(0.7)";
 })
 
 document.getElementById('th-03').addEventListener('mouseleave', event => {
@@ -68,7 +68,7 @@ document.getElementById('th-03').addEventListener('mouseleave', event => {
 
 document.getElementById('th-03').addEventListener('mouseover', event => {
 
-    document.getElementById('th-03').style.filter = "blur(5px) brightness(0.7)";
+    document.getElementById('th-03').style.filter = "blur(3px) brightness(0.7)";
 })
 
 // th-04
