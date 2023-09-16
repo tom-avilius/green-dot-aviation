@@ -156,7 +156,7 @@ a:-webkit-any-link {
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: rgba(166, 227, 161, 0.525);
+    /* background-color: rgba(166, 227, 161, 0.525); */
     height: 60vh;
     /* padding-top: 10px;
     padding-bottom: 10px; */
@@ -197,23 +197,13 @@ a:-webkit-any-link {
 
 .intro-container {
 
-    border-image: linear-gradient( to right, rgba(166, 227, 161, 0.525), whitesmoke) 230;
-    border-right-width: 30px;
-    border-style: solid;
-    border-left: none;
-    border-top: none;
-    border-bottom: none;
+    background-image: linear-gradient(to right, rgba(166, 227, 161, 0.8), whitesmoke);
 }
 
 .intro-navbar {
 
-    border-image: linear-gradient( to left, rgba(166, 227, 161, 0.525), whitesmoke) 230;
-    border-left-width: 30px;
-    border-style: solid;
-    border-right: none;
-    border-top: none;
-    border-bottom: none;
-}
+    background-image: linear-gradient(to left, rgba(166, 227, 161, 0.8), whitesmoke);
+} 
 
 .intro-navbar-item {
 
