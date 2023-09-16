@@ -124,6 +124,16 @@ a:-webkit-any-link {
     height: 20px;
 }
 
+#image-container {
+    
+    height: -webkit-fill-available;
+    background-color: whitesmoke;
+    text-align: center;
+    /* display: block !important; */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .intro2-navbar {
 
     display: none;
@@ -137,16 +147,16 @@ a:-webkit-any-link {
 #intro-background {
 
     height: 60vh;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 #intro-cover {
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: whitesmoke;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background-color: #02f5b4;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
 }
 
 #intro-cover div {
@@ -157,6 +167,9 @@ a:-webkit-any-link {
     align-content: center;
     justify-content: center;
     flex-wrap: wrap;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #intro-cover div h1, #intro-cover div ul {
@@ -167,8 +180,8 @@ a:-webkit-any-link {
 
 #intro-cover div h1 {
 
-    position: absolute;
-    left: 6.5vw;
+    /* position: absolute; */
+    /* left: 6.5vw; */
 }
 
 #intro-cover div ul {
@@ -234,9 +247,9 @@ a:-webkit-any-link {
 .intro-primary-navbar {
 
     list-style-type: none;
-    position: absolute;
-    top: 45vh;
-    left: 6.5vw;
+    /* position: absolute; */
+    /* top: 45vh; */
+    /* left: 6.5vw; */
 }
 
 .intro-primary-navbar li {
@@ -398,10 +411,10 @@ a:-webkit-any-link {
         left: 2.5vw;
     }
 
-    #intro-background {
+    /* #intro-background {
 
         margin-left: 50px;
-    }
+    } */
 }
 
 @media screen and (max-width: 1500px) {
@@ -409,7 +422,7 @@ a:-webkit-any-link {
     #intro-background {
 
         height: 30vh;
-        margin-left: 100px;
+        /* margin-left: 100px; */
     }
 
     #intro-cover {
@@ -493,9 +506,9 @@ a:-webkit-any-link {
 
 @media screen and (max-width: 720px) {
     
-    #intro-background {
+    #intro-background, #image-container {
 
-        display: none;
+        display: none !important;
     }
 
     #yt-links div img{
