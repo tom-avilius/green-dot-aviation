@@ -282,6 +282,11 @@ a:-webkit-any-link {
     padding-right: 40px;
 }
 
+.pad-bt-20 {
+
+    padding-bottom: 20px;
+}
+
 #yt-links {
 
     background-color: white;
