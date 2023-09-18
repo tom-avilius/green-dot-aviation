@@ -139,27 +139,16 @@ a:-webkit-any-link {
     display: none;
 }
 
-#intro {
-
-    /* text-align: center; */
-    /* height: 60vh; */
-}
-
 #intro-background {
 
-    /* height: 60vh; */
     width: calc(100vw/3);
-    /* margin-left: 20px; */
 }
 
 #intro-cover {
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* background-color: rgba(166, 227, 161, 0.525); */
     height: 60vh;
-    /* padding-top: 10px;
-    padding-bottom: 10px; */
 }
 
 #intro-cover div {
@@ -184,10 +173,7 @@ a:-webkit-any-link {
 
 #intro-cover div h1 {
 
-    /* position: absolute; */
-    /* left: 6.5vw; */
     margin-top: 6vh;
-    /* margin-left: 2vw; */
 }
 
 #intro-cover div ul {
@@ -218,7 +204,6 @@ a:-webkit-any-link {
 
 .intro-navbar-item a {
 
-    /* border-bottom: 1px solid #02f5b460; */
     border-bottom: 1px solid #04654b89; 
     padding-bottom: 3px;
 
@@ -263,17 +248,11 @@ a:-webkit-any-link {
 .intro-primary-navbar {
 
     list-style-type: none;
-    /* position: absolute; */
-    /* top: 45vh; */
-    /* left: 6.5vw; */
-    /* margin-left: 2vw; */
 }
 
 .intro-primary-navbar li {
 
     display: inline;
-    /* padding-right: 60px; */
-
     font-size: 1.4rem;
 }
 
@@ -323,9 +302,6 @@ a:-webkit-any-link {
 
 #yt-links div img {
 
-    /* min-height: 300px; */
-    /* height: 45vh; */
-    /* width: 45vw; */
     width: -webkit-fill-available;
     box-shadow: 0px 0px 100px 20px rgba(0,0,0,0.1);
     border-radius: 2rem;
@@ -334,7 +310,50 @@ a:-webkit-any-link {
 #yt-links div:hover {
 
     cursor: pointer;
-    /* box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; */
+}
+
+#yt-links div a {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#yt-links div a img {
+
+    display: inline;
+    transition: all 0.2s ease-in;
+}
+
+#yt-links div a img:hover ~ .th-tx{
+
+    opacity: 1;
+}
+
+#yt-links div a img:hover{
+
+    filter: blur(3px);
+}
+
+#yt-links div a h1:hover {
+
+    opacity: 1;
+}
+
+#yt-links div a h1 {
+
+    position: absolute;
+    display: inline;
+
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: white;
+    font-weight: 700;
+
+    opacity: 0;
+    backdrop-filter: blur(2px);
+
+    transition: all 0.3s ease-in;
 }
 
 /* css below is for popup  */
@@ -426,49 +445,19 @@ a:-webkit-any-link {
 
 /* End of css popup */
 
-@media screen and (max-width: 1600px) {
-
-    #intro-cover div h1, .intro-primary-navbar {
-
-        /* left: 2.5vw; */
-    }
-
-    /* #intro-background {
-
-        margin-left: 50px;
-    } */
-}
-
 @media screen and (max-width: 1500px) {
-    
-    #intro-background {
-
-        /* height: 30vh; */
-        /* margin-left: 100px; */
-    }
 
     #intro-cover {
 
         height: 60vh;
         align-items: center;
     }
-
-    #intro-cover div h1, .intro-primary-navbar {
-
-        /* left: 4.5vw; */
-    }
 }
-
-/* @media screen and (max-width: 1135px) {
-
-     */
-/* } */
 
 @media screen and (max-width: 1135px) {
 
     #intro-cover {
 
-        /* height: 50vh; */
         grid-template-columns: 1fr 1fr;
     }
 
@@ -518,12 +507,6 @@ a:-webkit-any-link {
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 
-    #yt-links div img{
-
-        /* width: 70vw; */
-        /* height: 35vh; */
-    }
-
     #yt-links div {
 
         width: 90vw;
@@ -540,11 +523,6 @@ a:-webkit-any-link {
     #intro-background {
 
         width: calc(100vw/3);
-    }
-
-    #yt-links div img{
-
-        /* width: 75vw; */
     }
 }
 
@@ -584,11 +562,6 @@ a:-webkit-any-link {
 
         display: block;
     }
-
-    #yt-links div img{
-
-        /* width: 80vw; */
-    }
 }
 
 @media screen and (max-width: 570px) {
@@ -612,12 +585,6 @@ a:-webkit-any-link {
     .copyright {
 
         text-align: center;
-    }
-
-    #yt-links div img{
-
-        /* width: 90vw; */
-        /* height: 35vh; */
     }
 }
 
@@ -662,13 +629,6 @@ a:-webkit-any-link {
 
         padding-left: 40px;
     }
-
-    #yt-links div img{
-
-        /* width: 95vw; */
-        /* width: -webkit-fill-available; */
-        /* height: 20vh; */
-    }
 }
 
 @media screen and (max-height: 640px) {
@@ -686,11 +646,6 @@ a:-webkit-any-link {
     .intro-primary-navbar {
         
         top: 55vh;
-    }
-
-    #intro-background {
-        
-        /* height: 60vh !important; */
     }
 }
 
@@ -723,11 +678,6 @@ a:-webkit-any-link {
 
         height: max-content;
     }
-
-    #intro-background {
-        
-        /* height: 80vh !important; */
-    }
 }
 
 @media screen and (max-height: 350px) {
@@ -740,11 +690,6 @@ a:-webkit-any-link {
     #intro-cover {
 
         min-height: 90vh;
-    }
-
-    #intro-background {
-        
-        /* height: 85vh !important; */
     }
 }
 
@@ -759,11 +704,6 @@ a:-webkit-any-link {
 
         min-height: 95vh;
     }
-
-     #intro-background {
-        
-        /* height: 90vh !important; */
-    }
 }
 
 @media screen and (max-height: 240px) {
@@ -776,11 +716,6 @@ a:-webkit-any-link {
     #intro-cover {
 
         min-height: 110vh
-    }
-
-     #intro-background {
-        
-        /* height: 100vh !important; */
     }
 }
 
@@ -795,88 +730,4 @@ a:-webkit-any-link {
 
         min-height: 120vh;
     }
-
-     #intro-background {
-        
-        /* height: 110vh !important; */
-    }
-}
-
-/* ! Utility Classes below, used during testing; finding them means I forgot to 
-   ! delete them. But it does not matter.
-! */
-
-/* .remove-border-radius {
-
-    border-radius: 0 !important;
-}
-
-#behave {
-
-    height: 10vh;
-    width: 100vw;
-    color: #636363;
-    background-color: white;
-    border-color: #02f5b4;
-    font-family: 'Open Sans', cursive;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    font-size: 1.5rem;
-} */
-
-
-/* ! test code below */
-
-#yt-links div a {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#yt-links div a img {
-
-    display: inline;
-    transition: all 0.2s ease-in;
-}
-
-/* #th-01, #th-03 {
-
-    transition: all 0.4s ease-in !important;
-}
-
-#th-01-tx, #th-03-tx {
-
-    transition: all 0.5s ease-in !important;
-} */
-
-#yt-links div a img:hover ~ .th-tx{
-
-    opacity: 1;
-}
-
-#yt-links div a img:hover{
-
-    filter: blur(3px);
-}
-
-#yt-links div a h1:hover {
-
-    opacity: 1;
-}
-
-#yt-links div a h1 {
-
-    position: absolute;
-    display: inline;
-
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    font-size: 3rem;
-    color: white;
-    font-weight: 700;
-
-    opacity: 0;
-    backdrop-filter: blur(2px);
-
-    transition: all 0.3s ease-in;
 }
