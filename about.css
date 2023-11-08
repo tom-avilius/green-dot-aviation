@@ -8,6 +8,12 @@
     margin: 0;
 }
 
+*::selection {
+
+    background-color: rgba(0, 148, 68, 0.6);
+    color: white;
+}
+
 .about-container-top {
 
     display: flex;
@@ -29,8 +35,8 @@
     margin-top: 40px;
     font-family: 'Playfair Display', serif;
     font-size: 3rem;
-    font-family: 700;
     color: rgba(0, 0, 0, 0.7);
+    text-align: center;
 }
 
 .body-intro {
