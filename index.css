@@ -7,6 +7,12 @@
     margin: 0;
 }
 
+*::selection {
+
+    background-color: rgba(0, 148, 68, 0.6);
+    color: white;
+}
+
 a:-webkit-any-link {
 
     color: inherit;

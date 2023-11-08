@@ -1,6 +1,6 @@
-// document.addEventListener("DOMContentLoaded", (event) => {
-//   window.location.href = "./#popup1";
-// });
+document.addEventListener("DOMContentLoaded", (event) => {
+  window.location.href = "./#popup1";
+});
 
 
 // ! utitility functions below
@@ -20,8 +20,8 @@
 //   window.alert('After clicking okay, images would not have curved edges!!');
 // })
 
+// ! End of utility functions 
 
-// ! test code
 
 // th-01
 document.getElementById('th-01-tx').addEventListener('mouseover', event => {
