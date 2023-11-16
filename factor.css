@@ -33,6 +33,11 @@
     color: rgba(0, 0, 0, 0.7);
 }
 
+.body {
+
+    background-color: whitesmoke;
+}
+
 .body-intro {
 
     display: grid;

@@ -57,6 +57,11 @@ a {
     cursor: pointer;
 }
 
+.body {
+
+    background-color: whitesmoke;
+}
+
 .body-intro {
 
     display: grid;

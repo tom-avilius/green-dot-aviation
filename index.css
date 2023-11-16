@@ -190,11 +190,15 @@ a:-webkit-any-link {
 .intro-container {
 
     background-image: linear-gradient(to right, rgba(166, 227, 161, 0.8), whitesmoke);
+    border-bottom: 50px solid;
+    border-image: linear-gradient(to bottom, rgba(166, 227, 161, 0.8), whitesmoke);
 }
 
 .intro-navbar {
 
     background-image: linear-gradient(to left, rgba(166, 227, 161, 0.8), whitesmoke);
+    border-bottom: 50px solid;
+    border-image: linear-gradient(to bottom, rgba(166, 227, 161, 0.8), whitesmoke);
 } 
 
 .intro-navbar-item {
@@ -295,7 +299,7 @@ a:-webkit-any-link {
 
 #yt-links {
 
-    background-color: white;
+    background-color: whitesmoke;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
