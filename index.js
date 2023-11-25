@@ -1,7 +1,24 @@
-// document.addEventListener("DOMContentLoaded", (event) => {
-//     window.location.href = "./#popup1";
-// });
 
+localStorage.setItem('hello', false)
+
+window.addEventListener('unload', (event) => {
+
+    localStorage.setItem('hello', "false")
+})
+
+function showToast() {
+
+    document.addEventListener("DOMContentLoaded", (event) => {
+        window.location.href = "./#popup1";
+    });
+}
+
+if (localStorage.getItem('hello') == "true") { } else {
+
+    showToast();
+    // this is done to know if the user is visiting the website for the first time 
+    localStorage.setItem("hello", "true");
+}
 
 // ! utitility functions below
 // ! if they are still here
