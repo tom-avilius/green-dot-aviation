@@ -1,6 +1,4 @@
 
-localStorage.setItem('hello', false)
-
 window.addEventListener('unload', (event) => {
 
     localStorage.setItem('hello', "false")
