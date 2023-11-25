@@ -60,6 +60,9 @@ a {
 .body {
 
     background-color: whitesmoke;
+
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .body-intro {
