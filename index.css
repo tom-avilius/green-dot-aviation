@@ -299,7 +299,7 @@ a:-webkit-any-link {
 
 #yt-links {
 
-    background-color: whitesmoke;
+    background-color: rgba(210, 210, 210, 0.519);
 
     display: grid;
     grid-template-columns: 1fr 1fr;
