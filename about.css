@@ -195,6 +195,15 @@ a {
 
         display: none;
     }
+
+    .body {
+
+        background-color: rgba(210, 210, 210, 0.519);
+
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-bottom: 40px;
+    }
 }
 
 @media screen and (max-width: 570px) {
@@ -218,5 +227,14 @@ a {
     .copyright {
 
         text-align: center;
+    }
+
+    .body {
+
+        background-color: rgba(210, 210, 210, 0.519);
+
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
     }
 }
