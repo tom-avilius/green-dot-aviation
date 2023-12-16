@@ -13,7 +13,7 @@ function showToast() {
 
 if (localStorage.getItem('hello') == "true") { } else {
 
-    //showToast();
+    showToast();
     // this is done to know if the user is visiting the website for the first time 
     localStorage.setItem("hello", "true");
 }
