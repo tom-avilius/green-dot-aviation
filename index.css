@@ -79,6 +79,12 @@ a:-webkit-any-link {
     text-align: center;
 }
 
+.faq {
+
+    display: block !important;
+    margin-top: 20px;
+}
+
 .float-left {
 
     float: left;
@@ -639,10 +645,19 @@ a:-webkit-any-link {
 
         height: 50vh;
     }
+}
+
+@media screen and (max-width: 330px) {
 
     .pad-lt-40 {
 
-        padding-left: 40px;
+        display: inline-block !important;
+        margin-top: 5px;
+    }
+
+    .faq {
+
+        margin-top: 5px;
     }
 }
 
