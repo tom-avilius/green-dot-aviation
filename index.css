@@ -644,7 +644,8 @@ a:-webkit-any-link {
 
     #intro-cover {
 
-        height: 50vh;
+        /* Property removed due to problems in safari 17 */
+        /* height: 50vh; */
     }
 }
 
